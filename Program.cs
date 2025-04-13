@@ -63,7 +63,7 @@ namespace POO_ejercicios_semana_4
     /*   public class Persona
        {
            public string Nombre;
-           private int Edad; // Edad definida como privada
+           private int Edad; 
            public string DNI;
 
            public Persona()
@@ -76,8 +76,8 @@ namespace POO_ejercicios_semana_4
            public Persona(string nombre)
            {
                Nombre = nombre;
-               Edad = 43; // Edad por defecto
-               DNI = "24556234"; // DNI por defecto
+               Edad = 43; 
+               DNI = "24556234"; 
            }
 
            public Persona(string nombre, int edad, string dni)
@@ -96,7 +96,7 @@ namespace POO_ejercicios_semana_4
 
            public void SetEdad(int edad)
            {
-               if (edad >= 0) // Validar que la edad no sea negativa
+               if (edad >= 0) 
                {
                    Edad = edad;
                }
